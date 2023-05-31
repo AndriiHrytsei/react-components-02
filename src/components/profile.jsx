@@ -2,6 +2,7 @@
 function Profile ({ username, tag, location, avatar, stats }) {
     return (
         <>
+        <div className="profile">
             <div className="description">
                 <img
                     src={avatar}
@@ -27,6 +28,7 @@ function Profile ({ username, tag, location, avatar, stats }) {
                     <span className="quantity">{stats["likes"]}</span>
                 </li>
             </ul>
+            </div>
         </>
     )
 }

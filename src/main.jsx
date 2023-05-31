@@ -5,7 +5,7 @@ import Profile from "./components/profile.jsx"
 import data from "./user.json"
 import './index.css'
 
-ReactDOM.createRoot(document.querySelector("#profile"))
+ReactDOM.createRoot(document.querySelector("#root"))
     .render(
         <Profile 
             username = {data.username}
