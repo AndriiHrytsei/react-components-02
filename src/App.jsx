@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -12,7 +13,7 @@ function App() {
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
-        <a href="https://react.dev" target="_blank">
+        <a href="https://react.dev" target="_blank" rel="noreferrer">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
