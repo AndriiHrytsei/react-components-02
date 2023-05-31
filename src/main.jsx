@@ -1,10 +1,18 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+import Profile from "./components/profile.jsx"
+import data from "./user.json"
 import './index.css'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+ReactDOM.createRoot(document.querySelector("#profile"))
+    .render(
+        <Profile 
+            username = {data.username}
+            tag = {data.tag}
+            location = {data.location}
+            avatar = {data.avatar}
+            stats = {data.stats}
+        />
+    )
+
