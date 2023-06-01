@@ -28,7 +28,7 @@ function Profile ({ username, tag, location, avatar, stats }) {
                     <span className="quantity">{stats["likes"]}</span>
                 </li>
             </ul>
-            </div>
+        </div>
         </>
     )
 }
