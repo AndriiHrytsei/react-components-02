@@ -6,12 +6,14 @@ import data from "./user.json"
 
 ReactDOM.createRoot(document.querySelector("#root"))
     .render(
-        <Profile 
-            username = {data.username}
-            tag = {data.tag}
-            location = {data.location}
-            avatar = {data.avatar}
-            stats = {data.stats}
-        />
+        <React.StrictMode>
+            <Profile 
+                username = {data.username}
+                tag = {data.tag}
+                location = {data.location}
+                avatar = {data.avatar}
+                stats = {data.stats}
+            />
+        </React.StrictMode>
     )
 
