@@ -54,6 +54,9 @@ ul{
     justify-content: center;
     align-items: center;
     height: 70px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #dcdcdc;
 }
 
 .stats li{
@@ -62,7 +65,6 @@ ul{
     align-items: center;
     height: 100%;
     width: 100%;
-    background-color: #dcdcdc;
     justify-content: center;
 }
 
